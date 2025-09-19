@@ -7,7 +7,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'The Kimmel Crybaby Mac',
     description: 'Two all-beef patties, special "LeftyLoon" sauce, wilted lettuce, cheese, pickles, and onions, served on a tear-soaked bun.',
     price: 5.99,
-    imageUrl: '/images/1.png',
+    imageUrl: '/images/1.avif',
     category: 'Burgers',
   },
   {
@@ -15,7 +15,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Quarter Pounder with Cancellation',
     description: 'A quarter-pound of shame and guilt, with a slice of melted ratings, onions, and a drizzle of bitter tears.',
     price: 6.49,
-    imageUrl: '/images/2.png',
+    imageUrl: '/images/2.avif',
     category: 'Burgers',
   },
   {
@@ -23,7 +23,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'The Cryin\' Chicken Sandwich',
     description: 'A surprisingly tender chicken patty, probably from crying so much. Topped with shredded lettuce and extra salty mayo.',
     price: 4.99,
-    imageUrl: '/images/3.png',
+    imageUrl: '/images/3.avif',
     category: 'Burgers',
   },
   {
@@ -31,7 +31,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'The Monologue Melt',
     description: 'A greasy patty melt that goes on and on, just like his openings. Topped with rambling onions and cheese that just won\'t shut up.',
     price: 6.99,
-    imageUrl: '/images/4.png',
+    imageUrl: '/images/4.avif',
     category: 'Burgers',
   },
   // Sides
@@ -40,7 +40,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'World Famous Failure Fries',
     description: 'Salty, just like him. Cut from premium potatoes and fried in the tears of a late-night host.',
     price: 2.99,
-    imageUrl: '/images/5.png',
+    imageUrl: '/images/5.avif',
     category: 'Sides',
   },
   {
@@ -48,7 +48,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Tear-Soaked Nuggets (10pc)',
     description: 'Ten pieces of tender, juicy chicken, perfect for dipping in "I Told You So" sweet & sour sauce.',
     price: 5.49,
-    imageUrl: '/images/6.png',
+    imageUrl: '/images/6.avif',
     category: 'Sides',
   },
   {
@@ -56,7 +56,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Onion Rings of Irrelevance',
     description: 'Perfectly circular, just like the echo chamber he lives in. Deep-fried and served with a side of obscurity.',
     price: 3.99,
-    imageUrl: '/images/7.png',
+    imageUrl: '/images/7.avif',
     category: 'Sides',
   },
   {
@@ -64,7 +64,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Liberal Tears Mozzarella Sticks',
     description: 'Cheesy, stretchy, and incredibly salty. Served with a marinara sauce that\'s red with rage.',
     price: 4.99,
-    imageUrl: '/images/8.png',
+    imageUrl: '/images/8.avif',
     category: 'Sides',
   },
   // Drinks
@@ -73,7 +73,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Cry-a-Cola Classic',
     description: 'The classic taste of fizzling out. Bubbly, refreshing, and soon to be forgotten.',
     price: 1.99,
-    imageUrl: '/images/9.png',
+    imageUrl: '/images/9.avif',
     category: 'Drinks',
   },
   {
@@ -81,7 +81,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Melted Career Chocolate Shake',
     description: 'A rich, creamy shake representing the slow, delicious melt of a once-promising career.',
     price: 3.49,
-    imageUrl: '/images/10.png',
+    imageUrl: '/images/10.avif',
     category: 'Drinks',
   },
   {
@@ -89,7 +89,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Vanishing Viewers Vanilla Shake',
     description: 'A classic vanilla shake that gets thinner and smaller with every sip, just like his audience.',
     price: 3.49,
-    imageUrl: '/images/11.png',
+    imageUrl: '/images/11.avif',
     category: 'Drinks',
   },
   {
@@ -97,7 +97,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Zero-Sugar Sanity Soda',
     description: 'A crisp, refreshing beverage for those who prefer common sense over coastal elite nonsense. 0% agenda, 100% refreshment.',
     price: 1.99,
-    imageUrl: '/images/12.png',
+    imageUrl: '/images/12.avif',
     category: 'Drinks',
   },
   // Desserts
@@ -106,7 +106,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Humble Pie',
     description: 'A warm slice of reality served in a flaky crust. A dessert best served cold.',
     price: 1.49,
-    imageUrl: '/images/13.png',
+    imageUrl: '/images/13.avif',
     category: 'Desserts',
   },
   {
@@ -114,7 +114,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'The Fired Sundae',
     description: 'A scoop of ice cream topped with hot fudge, nuts, and a pink slip. The cherry on top? He deserved it.',
     price: 2.99,
-    imageUrl: '/images/14.png',
+    imageUrl: '/images/14.avif',
     category: 'Desserts',
   },
   {
@@ -122,7 +122,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Canceled Carrot Cake',
     description: 'A delicious slice of carrot cake that no one asked for, but we\'re serving it anyway. With cream cheese frosting of defeat.',
     price: 3.29,
-    imageUrl: '/images/15.png',
+    imageUrl: '/images/15.avif',
     category: 'Desserts',
   },
   {
@@ -130,7 +130,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'The "No one is laughing" Cookie',
     description: 'A single, sad chocolate chip cookie. It\'s dry, tasteless, and thinks it\'s funnier than it is.',
     price: 0.99,
-    imageUrl: '/images/16.png',
+    imageUrl: '/images/16.avif',
     category: 'Desserts',
   }
 ];
