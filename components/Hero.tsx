@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 // Using high-resolution images that match the food items
 const heroImages = [
-  { src: '/images/hero1.png', alt: 'A close-up of a delicious, juicy burger', title: 'The Last Laugh' },
-  { src: '/images/hero2.png', alt: 'A batch of golden, crispy french fries', title: 'Salty & Satisfying' },
-  { src: '/images/hero3.png', alt: 'A creamy and rich chocolate milkshake in a glass', title: 'A Bitter End' },
-  { src: '/images/hero4.png', alt: 'A warm, flaky apple pie dessert', title: 'Just Desserts' },
+  { src: '/images/hero1.avif', alt: 'A close-up of a delicious, juicy burger', title: 'The Last Laugh' },
+  { src: '/images/hero2.avif', alt: 'A batch of golden, crispy french fries', title: 'Salty & Satisfying' },
+  { src: '/images/hero3.avif', alt: 'A creamy and rich chocolate milkshake in a glass', title: 'A Bitter End' },
+  { src: '/images/hero4.avif', alt: 'A warm, flaky apple pie dessert', title: 'Just Desserts' },
 ];
 
 const Hero: React.FC = () => {
