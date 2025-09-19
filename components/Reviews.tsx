@@ -4,13 +4,10 @@ import ReviewCard from './ReviewCard';
 
 interface ReviewsProps {
   reviews: Review[];
-  isLoading: boolean;
-  error: string | null;
-  onRefresh: () => void;
   onAddReview: (review: Review) => void;
 }
 
-const Reviews: React.FC<ReviewsProps> = ({ reviews, isLoading, error, onRefresh, onAddReview }) => {
+const Reviews: React.FC<ReviewsProps> = ({ reviews, onAddReview }) => {
   const [newReview, setNewReview] = useState<Review>({ author: '', rating: 5, comment: '' });
   const [submitted, setSubmitted] = useState(false);
 
@@ -42,31 +39,13 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews, isLoading, error, onRefresh,
           </p>
         </div>
         
-        {isLoading && (
-          <div className="flex justify-center items-center py-8">
-            <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-mckimmels-yellow"></div>
-          </div>
-        )}
-        
-        {error && (
-          <div className="text-center py-8 bg-red-50 border border-red-200 text-red-700 rounded-lg p-4">
-            <p className="font-semibold">Oops! Something went wrong.</p>
-            <p className="mb-4">{error}</p>
-            <button onClick={onRefresh} className="px-4 py-2 bg-mckimmels-red text-white font-semibold rounded-lg shadow-md hover:bg-red-700 transition-colors">
-              Try Again
-            </button>
-          </div>
-        )}
-
-        {!isLoading && !error && reviews.length > 0 && (
+        {reviews.length > 0 ? (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {reviews.map((review, index) => (
               <ReviewCard key={index} review={review} />
             ))}
           </div>
-        )}
-
-        {!isLoading && !error && reviews.length === 0 && (
+        ) : (
             <div className="text-center py-8 text-gray-500">
                 <p>No reviews yet. Be the first to leave your condolences!</p>
             </div>
